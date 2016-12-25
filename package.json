@@ -1,0 +1,24 @@
+{
+  "author": "Ersun Warncke <ersun.warncke@gmail.com>",
+  "bin": {
+    "immutable-autotest": "./bin/immutable-autotest"
+  },
+  "dependencies": {
+  },
+  "description": "Command line program for automated unit and regression testing of immutbale-core apps",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT",
+  "name": "immutable-autotest",
+  "repository": "warncke/immutable-autotest",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.1"
+}
