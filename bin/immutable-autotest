@@ -2,4 +2,18 @@
 
 'use strict'
 
-console.log('Immutable Autotest')
+/* npm modules */
+const commander = require('commander')
+
+/* application modules */
+const create = require('../lib/create')
+
+// options for all commands
+commander.option('-c, --config <file>', 'json5 configuration file')
+commander.option('-s, --silent', 'disable all console output')
+
+commander
+    .command('create <file>')
+    .action(create)
+
+commander.parse(process.argv)

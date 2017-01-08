@@ -4,6 +4,15 @@
     "immutable-autotest": "./bin/immutable-autotest"
   },
   "dependencies": {
+    "bluebird": "^3.4.7",
+    "commander": "^2.9.0",
+    "immutable-automock": "^0.5.0",
+    "immutable-core": "^0.3.3",
+    "immutable-database-mariasql": "^0.3.0",
+    "immutable-http-client": "^0.3.0",
+    "json5": "^0.5.1",
+    "lodash": "^4.17.3",
+    "require-all": "^2.1.0"
   },
   "description": "Command line program for automated unit and regression testing of immutbale-core apps",
   "devDependencies": {
@@ -20,5 +29,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
