@@ -10,7 +10,9 @@ const create = require('../lib/create')
 
 // options for all commands
 commander.option('-c, --config <file>', 'json5 configuration file')
+commander.option('-d, --data', 'include data with warnings')
 commander.option('-s, --silent', 'disable all console output')
+commander.option('-w, --warn', 'give warnings instead of throwing errors')
 
 commander
     .command('create <file>')
