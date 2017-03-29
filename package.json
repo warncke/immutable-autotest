@@ -8,9 +8,9 @@
     "commander": "2.9.0",
     "deep-diff": "0.3.4",
     "immutable-automock": "1.0.13",
-    "immutable-core": "1.2.12",
-    "immutable-database-mariasql": "1.2.13",
-    "immutable-http-client": "0.4.12",
+    "immutable-core": "1.2.13",
+    "immutable-database-mariasql": "1.2.14",
+    "immutable-http-client": "0.4.13",
     "json5": "0.5.1",
     "lodash": "4.17.4",
     "require-all": "2.2.0"
@@ -30,5 +30,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.0.17"
+  "version": "0.0.18"
 }
